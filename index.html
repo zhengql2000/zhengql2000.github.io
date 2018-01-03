@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://zhengql2000.github.io/xzbg.css">
+    <script src="angular.min.js"></script> 
+</head>
+<body>
+        <div data-ng-app="" data-ng-init="ns=1;ns1=1;qxb=1;qxg=1">
+        <h1>浑河堡基督教会小组周报表</h1>
+        <table  border="1"cellspacing="0" bordercolor="#000000" width = "60%" 
+        style="border-collapse:collapse;">
+            <tr>
+                <td >
+                    <div class="td2">组长姓名：<input type="text"  class="styel1" style="text-align:center">
+                    </div>
+                </td>
+                <td>
+                    <div class="td2">接待家庭：<input type="text" class="styel1" style="text-align:center">
+</div>
+                </td>
+                <td>
+                    <div class="riqi1">报表日期：<input type="date" class="riqi" style="text-align:center">
+
+                    </div>
+                </td>
+            </tr>
+        </table>
+        <table  border="1"cellspacing="0" bordercolor="#000000" width = "60%" 
+        style="border-collapse:collapse;">
+        <tr>
+            <td>
+                <div class="td1">司会：<input type="text" class="deh" style="text-align:center">
+
+                </div>
+            </td>
+            <td>
+                    <div class="td1">领诗：<input type="text" class="deh" style="text-align:center">
+    
+                    </div>
+                </td>
+                <td>
+                        <div class="td1">分享：<input type="text" class="deh" style="text-align:center">
+        
+                        </div>
+                    </td>
+                    <td>
+                            <div class="td1">代祷：<input type="text" class="deh" style="text-align:center">
+            
+                            </div>
+                        </td>
+        </tr>
+        </table>
+        <table  border="1"cellspacing="0" bordercolor="#000000" width = "60%" 
+        style="border-collapse:collapse;">
+        <tr>
+            
+            <td>
+                
+                <div class="td1">出席：男：<input type="number" class="nan" max="5" min="0"
+                    style="font-size:19px" ng-model="ns">
+                    女：<input type="number" class="nan" max="5" min="0" style="font-size:20px" 
+                    ng-model="ns1">
+
+                </div>
+            </td>
+            <td class="td1">合计：{{ns+ns1}}
+
+            </td>
+            <td>
+                <div class="td1">缺席：男<input type="number" class="nan" max="5" min="0"
+                    style="font-size:19px" ng-model="qxb">女：<input type="number" class="nan" max="5" min="0"
+                    style="font-size:19px" ng-model="qxg">
+
+                </div>
+            </td>
+            <td class="td1">合计：{{qxb+qxg}}
+
+            </td>
+        
+        </tr>
+        </table>
+        <table border="1"cellspacing="0" bordercolor="#000000" width = "60%" 
+        style="border-collapse:collapse;">
+            <tr>
+                <td><div class="td1">主日经文：<input type="text" class="zrjw">
+
+                </td>
+                <td><div class="td1">讲道题目：<input type="text" class="zrjw">
+                    
+              </td>
+            </tr>
+        </table>
+        <table border="1"cellspacing="0" bordercolor="#000000" width = "40%" 
+        style="border-collapse:collapse;">
+        <tr>
+            <th style="width:120px;font-size:20px" >组员姓名
+                <td>
+                    组员分享,主日和小组缺席原因，特殊祷告题目，探访，新家族认领，服侍情况，外来访客，需要教会支持事项，合理化建议等，有什么就写什么。
+                </td>
+                <td class="td2"width="194px">胎信徒代祷</td>
+            </th>
+        </tr>
+        <tr>
+            <th>
+                <input type="text" style="width: 120px;font-size:20px;height:30px;text-align:center" class="fk">
+                <td>
+                    <input type="text" style="width:470px;height:30px" class="fk">
+                </td>
+                <td>
+                <input type="text" style="width: 190px;font-size:20px;height:30px;text-align:center"class="fk" >
+                </td>
+            </th>
+        </tr>
+        <tr>
+                <th>
+                    <input type="text" style="width: 120px;font-size:20px;height:30px;text-align:center" class="fk">
+                    <td>
+                        <input type="text" style="width:470px;height:30px" class="fk">
+                    </td>
+                    <td>
+                    <input type="text" style="width: 190px;font-size:20px;height:30px;text-align:center"class="fk" >
+                    </td>
+                </th>
+            </tr>
+            <tr>
+                    <th>
+                        <input type="text" style="width: 120px;font-size:20px;height:30px;text-align:center" class="fk">
+                        <td>
+                            <input type="text" style="width:470px;height:30px" class="fk">
+                        </td>
+                        <td>
+                        <input type="text" style="width: 190px;font-size:20px;height:30px;text-align:center"class="fk" >
+                        </td>
+                    </th>
+                </tr>
+                <tr>
+                        <th>
+                            <input type="text" style="width: 120px;font-size:20px;height:30px;text-align:center" class="fk">
+                            <td>
+                                <input type="text" style="width:470px;height:30px" class="fk">
+                            </td>
+                            <td>
+                            <input type="text" style="width: 190px;font-size:20px;height:30px;text-align:center"class="fk" >
+                            </td>
+                        </th>
+                    </tr>
+                    <tr>
+                            <th>
+                                <input type="text" style="width: 120px;font-size:20px;height:30px;text-align:center" class="fk">
+                                <td>
+                                    <input type="text" style="width:470px;height:30px" class="fk">
+                                </td>
+                                <td>
+                                <input type="text" style="width: 190px;font-size:20px;height:30px;text-align:center"class="fk" >
+                                </td>
+                            </th>
+                        </tr>
+                        <tr>
+                                <th>
+                                    <input type="text" style="width: 120px;font-size:20px;height:30px;text-align:center" class="fk">
+                                    <td>
+                                        <input type="text" style="width:470px;height:30px" class="fk">
+                                    </td>
+                                    <td>
+                                    <input type="text" style="width: 190px;font-size:20px;height:30px;text-align:center"class="fk" >
+                                    </td>
+                                </th>
+                            </tr>
+                            <tr>
+                                    <th>
+                                        <input type="text" style="width: 120px;font-size:20px;height:30px;text-align:center" class="fk">
+                                        <td>
+                                            <input type="text" style="width:470px;height:30px" class="fk">
+                                        </td>
+                                        <td>
+                                        <input type="text" style="width: 190px;font-size:20px;height:30px;text-align:center"class="fk" >
+                                        </td>
+                                    </th>
+                                </tr>
+                                <tr>
+                                        <th>
+                                            <input type="text" style="width: 120px;font-size:20px;height:30px;text-align:center" class="fk">
+                                            <td>
+                                                <input type="text" style="width:470px;height:30px" class="fk">
+                                            </td>
+                                            <td>
+                                            <input type="text" style="width: 190px;font-size:20px;height:30px;text-align:center"class="fk" >
+                                            </td>
+                                        </th>
+                                    </tr>
+                                    <tr>
+                                            <th>
+                                                <input type="text" style="width: 120px;font-size:20px;height:30px;text-align:center" class="fk">
+                                                <td>
+                                                    <input type="text" style="width:470px;height:30px" class="fk">
+                                                </td>
+                                                <td>
+                                                <input type="text" style="width: 190px;font-size:20px;height:30px;text-align:center"class="fk" >
+                                                </td>
+                                            </th>
+                                        </tr>
+                                        <tr>
+                                                <th>
+                                                    <input type="text" style="width: 120px;font-size:20px;height:30px;text-align:center" class="fk">
+                                                    <td>
+                                                        <input type="text" style="width:470px;height:30px" class="fk">
+                                                    </td>
+                                                    <td>
+                                                    <input type="text" style="width: 190px;font-size:20px;height:30px;text-align:center"class="fk" >
+                                                    </td>
+                                                </th>
+                                            </tr>
+
+    
+
+        </table>
+        <table border="1"cellspacing="0" bordercolor="#000000" width = "60%" 
+        style="border-collapse:collapse;">
+            <tr>
+                <th class="lhtxt">落户胎信徒
+                    <td >
+<input type="text" class="lhtxt1" style="width:670px;text-align:center" >
+                    </td>
+                </th>
+            </tr>
+            <tr>
+                    <th class="lhtxt">减员原因
+                        <td class="zt">
+                            <b>搬家</b> <input type="checkbox"> <b>回天家</b><input type="checkbox"> <b>异端邪教</b><input type="checkbox">
+                            <b>人际关系</b><input type="checkbox"> <b>其他原因</b><input type="checkbox">
+                        </td>
+                    </th>
+            </tr>
+        </table>
+        <table border="1"cellspacing="0" bordercolor="#000000" width = "60%" 
+        style="border-collapse:collapse;">
+        <tr>
+            <td class="zt">
+                分区长签名：<input type="text" value="签名" class="fk" style="width:140px;text-align:center;height:30px">
+            </td>
+            <td class="zt">
+                日期：<input type="date" style="width:140px;height:30px">
+            </td>
+            <td class="zt">
+                备注：<input type="text" value="签名" class="fk" style="width:140px;text-align:center;height:30px">
+            </td>
+        </tr>
+        <tr>
+                <td class="zt">
+                    区牧签名：<input type="text" value="签名" class="fk" style="width:140px;text-align:center;height:30px">
+                </td>
+                <td class="zt">
+                    日期：<input type="date" style="width:140px;height:30px">
+                </td>
+                <td class="zt">
+                    备注：<input type="text" value="签名" class="fk" style="width:140px;text-align:center;height:30px">
+                </td>
+            </tr>
+            <tr>
+                    <td class="zt">
+                        总区牧签名：<input type="text" value="签名" class="fk" style="width:140px;text-align:center;height:30px">
+                    </td>
+                    <td class="zt">
+                        日期：<input type="date" style="width:140px;height:30px">
+                    </td>
+                    <td class="zt">
+                        备注：<input type="text" value="签名" class="fk" style="width:140px;text-align:center;height:30px">
+                    </td>
+                </tr>
+                <tr>
+                        <td class="zt">
+                            主任牧师签名：<input type="text" value="签名" class="fk" style="width:140px;text-align:center;height:30px">
+                        </td>
+                        <td class="zt">
+                            日期：<input type="date" style="width:140px;height:30px">
+                        </td>
+                        <td class="zt">
+                            备注：<input type="text" value="签名" class="fk" style="width:140px;text-align:center;height:30px">
+                        </td>
+                    </tr>
+        </table>
+    </div>
+</body>
+</html>
