@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <link rel="stylesheet" href="https://zhengql2000.github.io/xzbg.css">
+    <link rel="stylesheet" href="xzbg.css">
     <script src="angular.min.js"></script> 
 </head>
 <body>
@@ -15,7 +15,7 @@
         style="border-collapse:collapse;">
             <tr>
                 <td >组长姓名：<input type="text"  style="text-align:center" class="dyh"></td>
-                <td>接待家庭：<input type="text" style="text-align:center"></td>
+                <td>接待家庭：<input type="text" style="text-align:center" class="dyh"></td>
                 <td colspan="2">报表日期：<input type="date" class="riqi" style="text-align:center"></td>
             </tr>
             <tr>
@@ -45,29 +45,27 @@
         <table  border="1"cellspacing="0" bordercolor="#000000" width = "60%" 
         style="border-collapse:collapse;">
         <tr>
-            
-            <td>
-                
-                <div class="td1">出席：男：<input type="number" class="nan" max="5" min="0"
-                    style="font-size:19px" ng-model="ns">
-                    女：<input type="number" class="nan" max="5" min="0" style="font-size:20px" 
-                    ng-model="ns1">
-
-                </div>
-            </td>
-            <td class="td1">合计：{{ns+ns1}}
-
-            </td>
-            <td>
-                <div class="td1">缺席：男<input type="number" class="nan" max="5" min="0"
+         <td>出席：</td>
+       
+         <td>
+                <div class="td1">男<input type="number" class="nan" max="5" min="0"
                     style="font-size:19px" ng-model="qxb">女：<input type="number" class="nan" max="5" min="0"
-                    style="font-size:19px" ng-model="qxg">
+                    style="font-size:19px" ng-model="qxg">合计：{{ns+ns1}}
+
+                </div>
+   
+        </td>
+            
+            
+            <td>缺席：</td>
+             <td>
+                <div class="td1">男<input type="number" class="nan" max="5" min="0"
+                    style="font-size:19px" ng-model="qxb">女：<input type="number" class="nan" max="5" min="0"
+                    style="font-size:19px" ng-model="qxg">合计：{{qxb+qxg}}
 
                 </div>
             </td>
-            <td class="td1">合计：{{qxb+qxg}}
-
-            </td>
+    
         
         </tr>
         </table>

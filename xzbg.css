@@ -1,7 +1,7 @@
 h1 {font-size: 25px;text-align: center;font-family: 宋体;margin-top: 30px}
 table {margin: 0px auto;width: 800px;}
-.td1{text-align: lift;font-family: 宋体; font-size: 25px;}
-.deh{height:30px;width: 120px;border: 0px;font-size: 20px;font-family: 宋体；}
+.td1{text-align: lift;font-family: 宋体; font-size: 15px;}
+.deh{height:30px;width: 80px;border: 0px;font-size: 20px;font-family: 宋体；}
 .riqi{height:31px;width: 150px;border: 0px;font-size: 18px; }
 .riqi1{height:31px;width: 260px;border: 0px;font-size: 18px; }
 .nan{ height:30px;width: 40px;border: 0px;font-size: 80px；}
@@ -11,5 +11,5 @@ table {margin: 0px auto;width: 800px;}
 .zt{font-family: 宋体;font-size: 25px;}
 .lhtxt{text-align: lift;font-family: 宋体; font-size: 18px;width: 120px;height: 30px;}
 .lhtxt1{height:30px;border: 0px;font-size: 20px;font-family: 宋体;}
-.dyh{width: 80px}
+.dyh{width: 80px;border: 0px;height: 28px}
 
