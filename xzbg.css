@@ -1,17 +1,17 @@
-h1 {font-size: 25px;text-align: center;font-family: 宋体;margin-top: 30px}
-table {margin: 0px auto;width: 800px;}
+h1 {font-size: 25px;text-align: center;font-family: 宋体;margin-top: 30px;BACKGROUND-COLOR:transparent;}
+table {margin: 0px auto;width: 800px;BACKGROUND-COLOR:transparent;}
 .td1{text-align: lift;font-family: 宋体; font-size: 15px;}
-.deh{height:30px;width: 80px;border: 0px;font-size: 20px;font-family: 宋体；}
-.riqi{height:31px;width: 150px;border: 0px;font-size: 18px; }
-.riqi1{height:31px;width: 260px;border: 0px;font-size: 18px; }
-.nan{ height:30px;width: 40px;border: 0px;font-size: 80px；}
-.zrjw{height: 30px;width: 270px;border: 0px;font-size: 20px;font-family: 宋体；}
+.deh{height:30px;width: 80px;border: 0px;font-size: 20px;font-family: 宋体;BACKGROUND-COLOR:transparent;}
+.riqi{height:31px;width: 150px;border: 0px;font-size: 18px;BACKGROUND-COLOR:transparent; }
+.riqi1{height:31px;width: 260px;border: 0px;font-size: 18px;BACKGROUND-COLOR:transparent; }
+.nan{ height:30px;width: 40px;border: 0px;font-size: 80px;BACKGROUND-COLOR:transparent;}
+.zrjw{height: 30px;width: 270px;border: 0px;font-size: 20px;font-family: 宋体;BACKGROUND-COLOR:transparent;}
 .styel2{height:30px;width: 500px;border: 0px;font-size: 10px;font-family: 宋体;align-content: center}
-.fk{border: 0px;font-family: 宋体;}
+.fk{border: 0px;font-family: 宋体;BACKGROUND-COLOR:transparent;}
 .zt{font-family: 宋体;font-size: 25px;}
-.lhtxt{text-align: lift;font-family: 宋体; font-size: 18px;width: 120px;height: 30px;}
-.lhtxt1{height:30px;border: 0px;font-size: 20px;font-family: 宋体;}
-.dyh{width: 80px;border: 0px;height: 28px}
+.lhtxt{text-align: lift;font-family: 宋体; font-size: 18px;width: 120px;height: 30px;BACKGROUND-COLOR:transparent;}
+.lhtxt1{height:30px;border: 0px;font-size: 20px;font-family: 宋体;BACKGROUND-COLOR:transparent;}
+.dyh{width: 80px;border: 0px;height: 28px;BACKGROUND-COLOR:transparent;}
 .tujz{text-align: center}
 .txt{text-align: center}
 
