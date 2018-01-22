@@ -8,13 +8,13 @@
 	
 		<style>
 			body{line-height: 1;background-color: rgb(184, 214, 238)}
-			.bfq{margin: 10px;padding: 0;}
+			.bfq{margin: 10px;padding: 10px; display:inline-block}
 			.bfq ul,.bfq li{list-style: none;margin: 0;padding: 0;float: left}
-			.bfq ul li a{text-decoration: none;color: teal;display: block;padding: 0px 0px;font-size: 12px}
+			.bfq ul li a{text-decoration: none;color: teal;font-size: 12px}
 			.bfq ul li{position: relative}
 			.bfq ul li ul{position: absolute;display: none}
-			.bfq ul:hover ul{display: block}
-			
+			.bfq ul li:hover ul{display: block}
+			/*播放器自动隐藏，和全局居中*/
 		
 		</style>
 	</head>
@@ -23,7 +23,7 @@
 				<ul>
 				<li>
 				<audio  controls="controls" autoplay="autoplay" id="bfq">
-				
+					<source src="music\qqt.mp3" type="audio/ogg" />
 						<source src="music\qqt.mp3" type="audio/mpeg" />
 					
 					  </audio></li>
