@@ -8,31 +8,51 @@
 	
 		<style>
 			body{line-height: 1;background-color: rgb(184, 214, 238)}
+			.bfq{margin: 10px;padding: 0;}
+			.bfq ul,.bfq li{list-style: none;margin: 0;padding: 0;float: left}
+			.bfq ul li a{text-decoration: none;color: teal;display: block;padding: 0px 0px;font-size: 12px}
+			.bfq ul li{position: relative}
+			.bfq ul li ul{position: absolute;display: none}
+			.bfq ul:hover ul{display: block}
+			
 		
 		</style>
 	</head>
 	<body >
+			<div class="bfq"><ul><li><a href="#">播放器</a>
+				<ul>
+				<li>
+				<audio  controls="controls" autoplay="autoplay" id="bfq">
+				
+						<source src="music\qqt.mp3" type="audio/mpeg" />
+					
+					  </audio></li>
+					</ul></li></ul></div>
 
 	
 		<!-- Wrapper -->
 			<div id="wrapper" class="divided">
 
 				<!-- One -->
+		
+			
 					<section class="banner style1 orient-left content-align-left image-position-right fullscreen onload-image-fade-in onload-content-fade-right">
 						<div class="content">
-							
+						
 										<img  src="images/elijah-logo-fish.png" alt="Asentus Logo" style="
 										width:150px">
 										<div style="margin:5px 26px"><p style="font-size:30px "> <a href="https://github.com/ElijahLabs/7300/blob/master/README.md" target="_blank"><b> ELIJAN</b></a></p></div>
 							<p></p>
+						
 							<h1>冰言歌		</h1> 
+						
 				
 						
 						
 						
 							<p class="major"><!--[-->这是我的第一个个人主页，旁边的图片是我家乡的瀑布。我的爱好是摄影和旅游。</p>
 							<ul class="">
-								<li><a href="#first" class="button big wide smooth-scroll-middle">进入</a></li>
+								<li style="list-style: none"><a href="#first" class="button big wide smooth-scroll-middle">进入</a></li>
 							</ul>
 						</div>
 						<div class="image">
@@ -245,6 +265,7 @@
 					</section>
 
 				<!-- Six -->
+				
 					<section class="wrapper style1 align-center">
 						<div class="inner">
 							<h2>联 系 方 式</h2>
